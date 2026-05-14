@@ -12,9 +12,7 @@
           "name": "Bella",
           "breed": "Golden Retriever",
           "age": 4,
-          "allergies": [
-            "kylling"
-          ]
+          "allergies": ["kylling"]
         },
         {
           "id": 2,
@@ -29,39 +27,100 @@
     }
   ],
   "petSitters": [
-   {
-     "id": 1,
-     "name": "Kari Hansen",
-     "userName": "Kari Hansen",
-     "password": "abc123",
-     "email": "kari@example.com",
-     "location": "Oslo",
-     "pricePerDay": 400,
-     "rating": 4.6,
-     "reviewCount": 12,
-     "maxDogs": 2,
-     "acceptsPuppies": true,
-     "acceptsLargeDogs": false,
-     "yearsOfExperience": 5,
-     "experienceDescription": ["Pomeranian", "Schæfer", "Papillon"],
-     "availableDates": ["22.04.2026", "23.04.2026", "24.04.2026"],
-     "bio": "Student i Trondheim som elsker hunder og har erfaring med både små og store raser. Tilbyr omsorgsfull pass i helger og ferier.",
-     "created": "2025-09-02T09:00:00",
-     "updated": "2025-09-12T16:45:00"
-   }
+    {
+      "name": "Hanne Johansen",
+      "password": "hqi",
+      "email": "HanneJohansen@online.com",
+      "location": "Larvik",
+      "pricePerDay": 450,
+      "rating": 0,
+      "reviewCount": 0,
+      "maxDogs": 2,
+      "acceptsPuppies": true,
+      "acceptsLargeDogs": false,
+      "yearsOfExperience": 4,
+      "experienceDescription": ["Labrador", "Puddel", "Grand danois"],
+      "availableDates": ["2026-05-13", "2026-05-09", "2026-05-15"],
+      "bio": "Jeg liker lange turer",
+      "created": "2026-05-10T21:59:57.181Z",
+      "updated": "2026-05-11T16:25:13.329Z",
+      "id": 3
+    },
+    {
+      "name": "Nils Henriksen",
+      "password": "sommer",
+      "email": "nilsjorgen@outlook.com",
+      "location": "Hamar",
+      "pricePerDay": 601,
+      "rating": 4,
+      "reviewCount": 0,
+      "maxDogs": 10,
+      "acceptsPuppies": true,
+      "acceptsLargeDogs": false,
+      "yearsOfExperience": 13,
+      "experienceDescription": ["Puddel", "Kinesisk nakenhund", "test"],
+      "availableDates": ["2026-05-17"],
+      "bio": "Jeg er glad i lange turer i skog og mark. Jeg har lang erfaring med små pelsklinger. ",
+      "created": "2026-05-11T17:19:23.860Z",
+      "updated": "2026-05-13T20:33:45.206Z",
+      "id": 4
+    },
+    {
+      "name": "Susanne Nergård",
+      "password": "Hansemann1!",
+      "email": "susannenergaard@hotmail.com",
+      "location": "Porsgrunn",
+      "pricePerDay": 250,
+      "rating": 5,
+      "reviewCount": 0,
+      "maxDogs": 10,
+      "acceptsPuppies": true,
+      "acceptsLargeDogs": true,
+      "yearsOfExperience": 5,
+      "experienceDescription": ["Hundeeier siden 2021", "Jobbet som hundepasser siden 2024"],
+      "availableDates": ["2026-05-18", "2026-05-29"],
+      "bio": "Jeg er 32 år. Bor i Porsgrunn.",
+      "created": "2026-05-13T11:13:45.347Z",
+      "updated": "2026-05-13T11:16:21.802Z",
+      "id": 5
+    }
   ],
   "bookings": [
     {
-      "id": 101,
       "userId": 1,
       "userDogId": 1,
-      "petSitterId": 1,
-      "fromDate": "2026-01-10",
-      "toDate": "2026-01-12",
-      "status": "pending",
-      "message": "Hei! Max er snill og vant til andre hunder. Ingen allergier.",
-      "created": "2025-12-30T12:15:00",
-      "updated": "2025-12-30T12:15:00"
+      "petSitterId": 3,
+      "fromDate": "2026-05-13",
+      "toDate": "2026-05-14",
+      "status": "avbestilt",
+      "message": "Hei",
+      "created": "2026-05-11T17:25:52.492Z",
+      "updated": "2026-05-11T17:26:43.158Z",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "userDogId": 1,
+      "petSitterId": 4,
+      "fromDate": "2026-05-02",
+      "toDate": "2026-04-30",
+      "status": "venter på svar",
+      "message": "Test",
+      "created": "2026-05-11T17:27:45.176Z",
+      "updated": "2026-05-11T17:27:45.176Z",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "userDogId": 1,
+      "petSitterId": 5,
+      "fromDate": "2026-05-18",
+      "toDate": "2026-05-19",
+      "status": "venter på svar",
+      "message": "Bestiller",
+      "created": "2026-05-13T11:17:19.085Z",
+      "updated": "2026-05-13T11:17:19.085Z",
+      "id": 3
     }
   ]
 }
