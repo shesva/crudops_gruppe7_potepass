@@ -24,6 +24,24 @@
       ],
       "created": "2025-09-01T10:30:00",
       "updated": "2025-09-10T14:20:00"
+    },
+    {
+      "id": 2,
+      "userName": "Trine Hansen",
+      "password": "snartsommer",
+      "email": "trine@example.com",
+      "description": "Trenger hundepass ofte fordi jeg jobber mye",
+      "dogs": [
+        {
+          "id": 3,
+          "name": "Bonzo",
+          "breed": "Papillon",
+          "age": 12,
+          "allergies": ["kylling"]
+        }
+      ],
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00"
     }
   ],
   "petSitters": [
@@ -33,7 +51,7 @@
       "email": "HanneJohansen@online.com",
       "location": "Larvik",
       "pricePerDay": 450,
-      "rating": 0,
+      "rating": 3,
       "reviewCount": 0,
       "maxDogs": 2,
       "acceptsPuppies": true,
